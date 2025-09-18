@@ -1,21 +1,11 @@
-import streamlit as st
-
 st.title('Streamlit 데모 페이지')
 st.header('간단한 예시')
 st.write('이 페이지는 Streamlit의 기본 요소들을 보여줍니다.')
-
 st.text_input('텍스트를 입력하세요:')
 st.button('버튼')
 st.slider('슬라이더', 0, 100, 50)
 st.checkbox('체크박스')
 st.selectbox('선택박스', ['옵션 1', '옵션 2', '옵션 3'])
-
 st.success('성공 메시지 예시')
 st.error('에러 메시지 예시')
 st.info('정보 메시지 예시')
-import streamlit as st
-
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
